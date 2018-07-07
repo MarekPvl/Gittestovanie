@@ -1,0 +1,358 @@
+/* general */
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+/* clearfix */
+.group:before, .container:before,
+.group:after, .container:after {
+	content: " ";
+	display: table;
+}
+
+.group:after, .container:after {
+	clear: both;
+}
+
+body {
+	color: #222;
+	font-size: 100%;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1120px;
+	margin: 0 auto;
+}
+
+.menu {
+	text-align: center;
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.profile-img {
+	width: 30px;
+	height: 30px;
+	border-radius: 8px;
+
+}
+
+.avatar {
+	display: inline-block;
+	float: left;
+	padding-right: 10px;
+	margin: -6px;
+
+}
+
+.menu-width {
+	display: flex;
+	display: inline-block;
+}
+
+.card-edit {
+	width: 165%;
+	margin-left: -15em;
+
+}
+
+.file {
+	width: 40%;
+
+}
+
+.inputs {
+	width: 70%;
+	float: left;
+	margin-left: -120px;
+	padding-top: 40px;
+	padding-left: 60px;
+
+}
+
+.file-label {
+	margin: 0 auto;
+	text-decoration: underline;
+
+}
+
+.file-input {
+	width: 320px;
+}
+
+.file-button {
+	margin-top: 6px;
+}
+
+.edit-img {
+	width: 300px;
+	height: 290px;
+	border-radius: 8px;
+}
+
+.edit-picture {
+	margin-left: 65px;
+	height: 290px;
+}
+
+#color-list {
+	color: rgba(0, 0, 0, .5);
+}
+
+.image-user {
+	width: 280px;
+	height: 280px;
+}
+
+.header-width {
+	max-width: 280px;
+}
+
+.margin-top {
+	margin-top: 150px;
+}
+
+.margin-bottom {
+	margin-bottom: 150px;
+}
+
+.status {
+	font-size: 15px;
+	margin-bottom: 0;
+	width: 426px;
+	word-break: break-all;
+
+}
+
+.status-img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-right: 4px;
+
+}
+
+.flexbox {
+	display: block;
+
+}
+
+.name {
+	margin: 0;
+	font-size: 12px;
+}
+
+.time {
+	margin-top: -5px;
+	font-size: 10px;
+}
+
+.comment-input {
+	width: 420px;
+	border-radius: 50px;
+	line-height: 14px;
+	font-size: 14px;
+	display: flex;
+}
+
+.comment {
+	margin: -10px 1px 25px 7px;
+
+}
+
+.alert {
+	z-index: -1;
+}
+
+.comment-post {
+	background-color: white;
+	display: flex;
+	margin: 0px 1px 20px 5px;
+	border-radius: 50px;
+	word-break: break-all;
+	padding: 4px 20px;
+	width: 415px;
+
+}
+
+.comment-img {
+	padding: 0;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin: 0 4px 5px 0;
+
+}
+
+.comment-box {
+	margin: 0;
+	line-height: 22px;
+}
+
+.comment-text {
+	font-size: 14px;
+
+}
+
+.user-name {
+	color: #14899c;
+	font-size: 14px;
+}
+
+.comment-width {
+	max-width: 450px;
+}
+
+.comment-conntent {
+	margin-left: 8px;
+}
+
+.like {
+	background-color: #14899c;
+	color: white;
+	padding: 1px 8px;
+	border-radius: 50px;
+	font-size: 13px;
+	border: 1px #14899c solid;
+}
+
+.like:hover {
+	text-decoration: underline;
+	font-weight: 900;
+	cursor: pointer;
+}
+
+.like-button {
+	margin: -25px 0 16px 26px;
+}
+
+.dislike-button {
+	margin: -25px 0 16px 8px;
+}
+
+.like-comment {
+
+	color: #14899c;
+	padding: 4px 8px;
+	border-radius: 50px;
+	font-size: 12px;
+	border: none;
+	background-color: transparent;
+
+}
+
+.like-button-comment {
+	margin: -32px 0 16px 80px;
+
+}
+
+.dislike-button-comment {
+	margin: -32px 0 16px 8px;
+}
+
+.like-users {
+	background-color: #14899c;
+	color: white;
+	padding: 1px 8px;
+	border-radius: 50px;
+	font-size: 13px;
+	border: 1px #14899c solid;
+	text-decoration: underline;
+	font-weight: 900;
+
+}
+
+.like-comment-users {
+	color: #14899c;
+	padding: 4px 8px;
+	border-radius: 50px;
+	font-size: 12px;
+	border: none;
+	background-color: transparent;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+.like-comment:hover {
+	color: #14899c;
+	padding: 4px 8px;
+	border-radius: 50px;
+	font-size: 12px;
+	border: none;
+	background-color: transparent;
+	text-decoration: underline;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.add-friend {
+	background-color: #007bff;
+	color: white;
+	padding: 1px 8px;
+	border-radius: 50px;
+	font-size: 13px;
+	border: 1px #007bff solid;
+	height: 35px;
+}
+
+.add-friend:hover {
+	background-color: #007bff;
+	color: white;
+	padding: 1px 8px;
+	border-radius: 50px;
+	font-size: 13px;
+	border: 1px #007bff solid;
+	height: 35px;
+	text-decoration: underline;
+	font-weight: 600;
+	cursor: pointer;
+
+}
+
+.friends-button {
+	width: 161px;
+	margin-left: 20px;
+	margin-right: -17px;
+	border: 1px transparent solid !important;
+}
+
+.friends-list {
+	width: 280px;
+	display: inline;
+
+}
+
+.friend {
+	background-color: white;
+	height: 40px;
+	width: 40px;
+	display: inline;
+}
+
+.friend-name {
+	width: 30px;
+	height: 16px;
+	margin: 0;
+	font-size: 10px;
+	display: inline;
+
+}
